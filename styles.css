@@ -1,5 +1,7 @@
 /* index CSS */
 
+/* HEADER */
+
 .logo {
     width: 150px;
     margin-left: 5px;
@@ -17,6 +19,8 @@
   nav {
     font-size: 18px;
   }
+
+/* MAIN */
 
   .objetivo--mejor {
     color: orangered;
@@ -87,5 +91,85 @@
   }
   .distancia-title {
     padding: 170px 0px 0 0px;
-    border-bottom: 1px solid white;
+  }
+
+  /* FOOTER */
+
+  footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.001), black),
+      url(imgs/acti.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+  }
+  
+  .logo--footer {
+    width: 150px; 
+  }
+
+  .about-footer li {
+    list-style-type: none;
+    font-size: 20px;
+  }
+  .about-footer li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .redes {
+    text-align: center;
+    padding-top: 100px;
+  }
+  .redes h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .redes i {
+    font-size: 30px;
+    padding: 0px 20px;
+    font-weight: bold;
+  }
+  
+  .copyright {
+    padding-top: 50px;
+  }
+
+
+  @media (min-width: 768px) {
+    .logo--objetivo {
+      padding-top: 100px;
+      padding-left: 10px;
+      display: block;
+    }
+    .objetivo h2 {
+      font-size: 50px;
+      text-align: left;
+      justify-content: left;
+    }
+  
+    .clase-de-prueba h3 {
+      font-size: 30px;
+    }
+  
+    footer {
+      height: 60vh;
+    }
+
+    .logo--footer {
+        width: 200px; 
+      }
+  }
+  @media (max-width: 375px){
+footer {
+    height: 100vh;
+}
+  }
+  @media (max-width: 500px) {
+    .objetivo h2 {
+      font-size: 30px;
+    }
   }
