@@ -3,173 +3,305 @@
 /* HEADER */
 
 .logo {
-    width: 150px;
-    margin-left: 5px;
-  }
-  
-  header {
-    background-image: url(imgs/puerta.jpg);
-    background-position: center;
-    background-size: cover;
-    object-fit: cover;
-    height: 100vh;
-    width: 100%;
-  }
+  width: 150px;
+  margin-left: 5px;
+}
 
-  nav {
-    font-size: 18px;
-  }
+header {
+  background-image: url(imgs/puerta.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+nav {
+  font-size: 18px;
+}
 
 /* MAIN */
 
-  .objetivo--mejor {
-    color: orangered;
-    font-style: italic;
-    font-weight: bold;
-  }
-  
-  .objetivo h2 {
-    font-size: 40px;
-    text-align: center;
-    justify-content: center;
-    vertical-align: center;
-  }
+.objetivo--mejor {
+  color: orangered;
+  font-style: italic;
+  font-weight: bold;
+}
 
+.objetivo h2 {
+  font-size: 40px;
+  text-align: center;
+  justify-content: center;
+  vertical-align: center;
+}
+
+.logo--objetivo {
+  display: none;
+}
+
+.clase-de-prueba {
+  background-image: url(imgs/clase-de-prueba-chica.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.clase-de-prueba h3 {
+  margin-top: 50px;
+  border: 1px solid white;
+  padding: 3px 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.clase-de-prueba a {
+  text-decoration: none;
+}
+
+.compete {
+  background-image: url(imgs/clase-de\ -prueba2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+  object-fit: cover;
+}
+
+.compete-title {
+  padding-top: 120px;
+  color: orangered;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+}
+
+.compete-title-2 {
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.distancia {
+  background-image: url(imgs/clase-de-prueba4.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+  object-fit: cover;
+}
+.distancia-title {
+  padding: 170px 0px 0 0px;
+}
+
+/* FOOTER */
+
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.001), black),
+    url(imgs/acti.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
+  text-align: center;
+}
+
+.logo--footer {
+  width: 150px;
+}
+
+.about-footer li {
+  list-style-type: none;
+  font-size: 20px;
+}
+.about-footer li a {
+  text-decoration: none;
+  color: white;
+}
+
+.redes {
+  text-align: center;
+  padding-top: 100px;
+}
+.redes h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.redes i {
+  font-size: 30px;
+  padding: 0px 20px;
+  font-weight: bold;
+}
+
+.copyright {
+  padding-top: 50px;
+}
+
+/* ACTIVIDADES */
+
+.actividades-title {
+  background-image: url(imgs/actividadess.jpg);
+  height: 30vh;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  font-size: 40px;
+  margin: 50px 0px;
+}
+
+.actividades div:nth-child(1) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+    url(imgs/actividades.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+
+.actividades div:nth-child(2) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+    url(imgs/cardio.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+
+.actividades div:nth-child(3) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+    url(imgs/functional.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+
+.actividades div:nth-child(4) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+    url(imgs/Oly.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+
+.actividades div:nth-child(5) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+    url(imgs/gymnastics.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+
+.actividades div:nth-child(6) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+    url(imgs/stretchingg.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+
+.actividades div:nth-child(7) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+    url(imgs/kb.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+.actividades div:nth-child(8) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+    url(imgs/cross_kids.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+}
+
+.actividades h2 {
+  padding-bottom: 20px;
+}
+
+.actividades h5 {
+  border: 1px solid white;
+  padding: 5px 10px;
+}
+
+.servicios div:nth-child(2) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+    url(imgs/kinesiología.jpg);
+  height: 50vh;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+
+.servicios div:nth-child(3) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+    url(imgs/masajes.jpg);
+  height: 50vh;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+
+.servicios div:nth-child(4) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.01), black),
+    url(imgs/Una-vision-integral-de-la-nutricion-deportiva.jpg);
+  height: 50vh;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+
+.servicios h2 {
+  margin: 50px 0px;
+}
+
+@media (min-width: 768px) {
   .logo--objetivo {
-    display: none;
+    padding-top: 100px;
+    padding-left: 10px;
+    display: block;
   }
-
-  .clase-de-prueba {
-    background-image: url(imgs/clase-de-prueba-chica.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 80vh;
-    width: 100%;
-    object-fit: cover;
+  .objetivo h2 {
+    font-size: 50px;
+    text-align: left;
+    justify-content: left;
   }
 
   .clase-de-prueba h3 {
-    margin-top: 50px;
-    border: 1px solid white;
-    padding: 3px 10px;
-    font-size: 20px;
-    text-align: center;
+    font-size: 30px;
   }
-  .clase-de-prueba a {
-    text-decoration: none;
-  }
-
-  .compete {
-    background-image: url(imgs/clase-de\ -prueba2.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 80vh;
-    text-align: center;
-    object-fit: cover;
-  }
-  
-  .compete-title {
-    padding-top: 120px;
-    color: orangered;
-    font-weight: bold;
-    border-bottom: 1px solid white;
-  }
-
-  .compete-title-2 {
-    font-size: 15px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-  }
-
-  .distancia {
-    background-image: url(imgs/clase-de-prueba4.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 80vh;
-    text-align: center;
-    object-fit: cover;
-  }
-  .distancia-title {
-    padding: 170px 0px 0 0px;
-  }
-
-  /* FOOTER */
 
   footer {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.001), black),
-      url(imgs/acti.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 80vh;
-    width: 100%;
-    object-fit: cover;
-    text-align: center;
+    height: 60vh;
   }
-  
+
   .logo--footer {
-    width: 150px; 
+    width: 200px;
   }
-
-  .about-footer li {
-    list-style-type: none;
-    font-size: 20px;
-  }
-  .about-footer li a {
-    text-decoration: none;
-    color: white;
-  }
-
-  .redes {
-    text-align: center;
-    padding-top: 100px;
-  }
-  .redes h3 {
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  .redes i {
-    font-size: 30px;
-    padding: 0px 20px;
-    font-weight: bold;
-  }
-  
-  .copyright {
-    padding-top: 50px;
-  }
-
-
-  @media (min-width: 768px) {
-    .logo--objetivo {
-      padding-top: 100px;
-      padding-left: 10px;
-      display: block;
-    }
-    .objetivo h2 {
-      font-size: 50px;
-      text-align: left;
-      justify-content: left;
-    }
-  
-    .clase-de-prueba h3 {
-      font-size: 30px;
-    }
-  
-    footer {
-      height: 60vh;
-    }
-
-    .logo--footer {
-        width: 200px; 
-      }
-  }
-  @media (max-width: 375px){
-footer {
-    height: 100vh;
 }
+@media (max-width: 375px) {
+  footer {
+    height: 100vh;
   }
-  @media (max-width: 500px) {
-    .objetivo h2 {
-      font-size: 30px;
-    }
+}
+@media (max-width: 500px) {
+  .objetivo h2 {
+    font-size: 30px;
   }
+}
